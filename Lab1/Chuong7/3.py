@@ -1,2 +1,2 @@
-# bài 2 
+#bài 
 print('tomato'.count('o'))

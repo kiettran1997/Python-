@@ -1,6 +1,11 @@
 import Average
 import doctest
-print(Average.average(2,1))
-#a , b
-if __name__ == "__main__":
-    print(doctest.testmod())
+
+x=float(input("Nhập số"))
+y=float(input("Nhập số"))
+while (Average.average(x,y) < 5 ):
+    print(" bạn nhập sai rồi mời bạn nhập lại " )
+    x=float(input("Nhập số"))
+    y=float(input("Nhập số"))
+print("pass")
+
